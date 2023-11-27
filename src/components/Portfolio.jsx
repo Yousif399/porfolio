@@ -5,7 +5,7 @@ import bikes from '../pics/bikes.jpg'
 import weather from '../pics/weather.jpg'
 import pokemon from '../pics/pokemon.png'
 import watchit from '../pics/watchit.png'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 
 
 
@@ -62,8 +62,8 @@ const Portfolio = () => {
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg '>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-110' />
                                 <div className='flex items-center justify-center' >
-                                   <a href={link} target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Demo </a>
-                                    <a href={git} target='_blank' className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150'>Code</a>
+                                   <a href={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150' target='_blank'  rel="noreferrer">Demo </a>
+                                    <a href={git} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150' target='_blank' rel="noreferrer">Code</a>
                                 </div>
                             </div>
                         ))
