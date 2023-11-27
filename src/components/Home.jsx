@@ -1,5 +1,5 @@
 import React from 'react'
-import profile  from '../pics/profile pic.JPG'
+import profile  from '../pics/profile.jpg'
 import { RxDoubleArrowRight } from "react-icons/rx";
 import { Link } from 'react-scroll';
 
@@ -35,7 +35,7 @@ const ThisHome = () => {
                     
                 </div>
                 <div>
-                    <img src={profile} alt='firstpic' className='rounded-2xl mx-auto w-1/3 md:w-full ml-20'></img>
+                    <img src={profile} alt='firstpic' className='rounded-6xl mx-auto w-1/3 md:w-full ml-20'></img>
                 </div>
             </div>
         </div>
