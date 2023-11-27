@@ -16,15 +16,15 @@ const ThisHome = () => {
                         Full-stack developer |  Proficient in HTML, CSS, Python, JavaScript, React, Bootstrap, and Tailwind | Flask for backend | Let's create something extraordinary!
 
                     </h3>
-                    <div>
+                    <div className='flex '>
 
-                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-blue-900 cursor-pointer'>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-40 px-6 py-3 my-2 m-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-blue-900 cursor-pointer'>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <RxDoubleArrowRight size={22} className='ml-3' />
                             </span>
                         </Link>
-                        <Link to='skill' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-blue-900 cursor-pointer'>
+                        <Link to='skill' smooth duration={500} className='group text-white w-40 px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-blue-900 cursor-pointer'>
                             Skills
                             <span className='group-hover:rotate-90 duration-300'>
                                 <RxDoubleArrowRight size={22} className='ml-3' />
