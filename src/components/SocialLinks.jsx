@@ -29,7 +29,7 @@ const SocialLinks = () => {
                     Resume <img src={'https://img.icons8.com/?size=256&id=CgELV9WHcecG&format=png'} width='50px' alt='resume' />
                 </>
             ),
-            href: 'https://publuu.com/flip-book/312440/722234/page/1',
+            href: 'https://publuu.com/flip-book/312440/749738',
             style: 'rounded-br-md'
         }
     ]
