@@ -69,7 +69,7 @@ const Portfolio = () => {
                                 <h4 className='pb-5 px-2 flex justify-center font-bold'>{name}</h4>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-110' />
                                 <div className='flex items-center justify-center' >
-                                   <a href={lin} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150' target='_blank'  rel="noreferrer">Demo </a>
+                                   <a href={link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150' target='_blank'  rel="noreferrer">Demo </a>
                                     <a href={git} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-150' target='_blank' rel="noreferrer">Code</a>
                                 </div>
                             </div>
