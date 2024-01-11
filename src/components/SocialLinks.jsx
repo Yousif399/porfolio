@@ -29,7 +29,7 @@ const SocialLinks = () => {
                     Resume <img src={'https://img.icons8.com/?size=256&id=CgELV9WHcecG&format=png'} width='50px' alt='resume' />
                 </>
             ),
-            href: 'https://docs.google.com/document/d/1Bi_Q45zHFs98EBFw_pnsMqm_b3FohcfWrv5yaJV0x58/edit',
+            href: 'https://docs.google.com/document/d/1Bi_Q45zHFs98EBFw_pnsMqm_b3FohcfWrv5yaJV0x58/edit?usp=sharing',
             style: 'rounded-br-md'
         }
     ]
