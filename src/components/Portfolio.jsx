@@ -5,6 +5,8 @@ import bikes from '../pics/bikes.jpg'
 import weather from '../pics/weather.jpg'
 import pokemon from '../pics/pokemon.png'
 import watchit from '../pics/watchit.png'
+import orchardFamily from '../pics/orchardFamily.png'
+import dragonnier from '../pics/dragonnier.png'
 // import { Link } from 'react-scroll'
 
 
@@ -52,6 +54,20 @@ const Portfolio = () => {
             src: calculator,
             link: 'https://count9count.netlify.app/',
             git : 'https://github.com/Yousif399/calculator'
+        },
+        {
+            name :'Orchard Family Dentistry',
+            id: 7,
+            src: orchardFamily,
+            link: 'https://www.orchardfamilydentistry.ca/',
+            git : 'https://github.com/Yousif399/clinic_site'
+        },
+        {
+            name :'Dragonnier',
+            id: 8,
+            src: dragonnier,
+            link: 'https://dragonnier-site.netlify.app/',
+            git : 'https://github.com/Yousif399/Dragonnier-site'
         },
     ]
     return (
